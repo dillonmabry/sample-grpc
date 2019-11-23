@@ -3,9 +3,9 @@
 Sample GRPC client/server with protobuf
 
 ### Setup
-Add protoc to PATH and unzip: https://github.com/protocolbuffers/protobuf/releases/tag/v3.10.1
-go get -u google.golang.org/grpc
-go get -u github.com/golang/protobuf/protoc-gen-go
+- Add protoc to PATH and unzip: https://github.com/protocolbuffers/protobuf/releases/tag/v3.10.1
+- go get -u google.golang.org/grpc
+- go get -u github.com/golang/protobuf/protoc-gen-go
 
 ### Run
 `go run server/main.go`
